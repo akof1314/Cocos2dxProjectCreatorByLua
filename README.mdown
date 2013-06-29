@@ -1,0 +1,24 @@
+Cocos2dxProjectCreatorByLua
+=========
+
+Cocos2dxProjectCreatorByLua 是Cocos2d-x project-creator的Lua版本。
+
+使用到的第三方Lua库
+-------------------
+
+   * LuaFileSystem: https://github.com/keplerproject/luafilesystem
+   * Penlight: https://github.com/stevedonovan/Penlight
+   * Lua CJSON: https://github.com/mpx/lua-cjson/
+
+对于Penlight库的改动
+-------------------------------
+
+   * path.normcase(P)去掉了转换成小写功能
+   * dir.clonetree(path1,path2,file_fun,verbose)更改目的路径的计算
+
+如何使用
+--------------
+
+   仅提供Windows版本，其他版本需要自己编译。将文件放置cocos2d-x/tools/project-creator目录，使用命令行：
+   cd cocos2d-x/tools/project-createor/
+   lua create_project.lua -project Clams -package com.supersell.crash -language cpp
