@@ -20,5 +20,5 @@ Cocos2dxProjectCreatorByLua 是Cocos2d-x project-creator的Lua版本。
 --------------
 
    仅提供Windows版本，其他版本需要自己编译。将文件放置cocos2d-x/tools/project-creator目录，使用命令行：
-   cd cocos2d-x/tools/project-createor/
-   lua create_project.lua -project Clams -package com.supersell.crash -language cpp
+   * cd cocos2d-x/tools/project-createor/
+   * lua create_project.lua -project Clams -package com.supersell.crash -language cpp
